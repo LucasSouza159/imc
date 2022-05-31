@@ -1,0 +1,126 @@
+@media (max-width: 1024px){
+    .formulario{
+        height: 410px;
+        width: 40%;
+        margin-top: 100px;
+    }
+    .form-content input{
+        height: 2.5rem;
+    }
+    .form-content h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+    }
+    }
+@media (max-width: 900px){
+.formulario{
+    height: 410px;
+    width: 40%;
+    margin-top: 100px;
+}
+.form-content input{
+    height: 2.5rem;
+}
+.form-content h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+}
+@media (max-width: 750px){
+    .formulario{
+        height: 430px;
+        width: 45%;
+        margin-top: 100px;
+    }
+    .form-content input{
+        height: 2.5rem;
+    }
+    .form-content h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 50px 30px;
+    }
+    .formulario{
+        height: 430px;
+        width: 100%;
+        margin: 50px 30px;
+    }
+    
+    .form-content input{
+        height: 3rem;
+        margin-top: 20px;
+        border: 1px solid rgb(54, 54, 54);
+        padding-left: 10px;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .form-img{
+        width: 80%;
+    }
+}
+@media (max-width: 375px){
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30px 30px;
+    }
+    .formulario{
+        height: 470px;
+        width: 100%;
+        margin: 30px 30px;
+    }
+    
+    .form-content input{
+        height: 3rem;
+        margin-top: 20px;
+        border: 1px solid rgb(54, 54, 54);
+        padding-left: 10px;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .form-img{
+        width: 80%;
+    }
+}
+@media (max-width: 375px){
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30px 30px;
+    }
+    .formulario{
+        height: 450px;
+        width: 100%;
+        margin: 30px 30px;
+    }
+    .form-content h1{
+        font-size: 1rem;
+    }
+    
+    .form-img{
+        width: 80%;
+    }
+    #valorDigitado{
+        font-size: 0.7rem;
+        margin: 20px 0px;
+    }
+}
